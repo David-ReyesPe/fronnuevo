@@ -7,8 +7,7 @@ function Contacto() {
     <div className="contacto">
       <div
         className="lg:pt-14 lg:pb-10 lg:justify-center items-center text-center bg-cover bg-center p-4 sm:p-5 lg:p-5"
-        style={{ backgroundImage: `url(${contactenoimagen})` }}
-      >
+        style={{ backgroundImage: `url(${contactenoimagen})` }}>
         <div className="text-white font-bold text-3xl sm:text-4xl lg:text-5xl text-center sm:py-10 lg:py-8 relative z-10">
           Contactenos
         </div>
