@@ -1,5 +1,4 @@
 import React from 'react'
-// imagene
 import Beneficioimg from '../../../images/Beneficio-imagen/circulo.png'
 
 function Beneficio() {
@@ -35,6 +34,16 @@ function Beneficio() {
               alt="Ellipse outline"
               src={Beneficioimg}
             />
+            <div className="text-white font-normal text-left text-lg">
+              Sin costo de incapacidades
+            </div>
+          </div>
+          <div className="flex gap-4 p-3">
+            <img
+              className="h-10"
+              alt="Ellipse outline"
+              src={Beneficioimg}
+            />
             <p className="text-white font-normal text-left text-lg">
               En caso de retrasos en el proyecto de desarrollo mayores a
               15 días, la fundación asume el 50% del salario del
@@ -55,16 +64,6 @@ function Beneficio() {
             </p>
           </div>
           <div className="flex gap-4 p-3">
-            <img
-              className="h-10"
-              alt="Ellipse outline"
-              src={Beneficioimg}
-            />
-            <div className="text-white font-normal text-left text-lg">
-              Sin costo de incapacidades
-            </div>
-          </div>
-          <div className="flex  gap-4 p-3">
             <img
               className="h-10"
               alt="Ellipse outline"

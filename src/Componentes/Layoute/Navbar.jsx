@@ -55,7 +55,6 @@ function Navbar() {
         <a className="flex items-center">
           <img src={logonav} className="h-16 sm:h-16 md:h-16 lg:h-20 xl:h-24" />
         </a>
-
         <div className="block lg:hidden ">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -112,7 +111,7 @@ function Navbar() {
                 href="/contactos"
                 className="md:bg-transparent md:text-[#9A1B76] text-[#9A1B76] hover:text-[#db43b0] md:p-0 md:hover:text-[#db43b0]"
               >
-                Contactos
+                Contactenos
               </a>
             </li>
             <li className="py-2 lg:py-0 text-center">
@@ -160,10 +159,7 @@ function Navbar() {
                   <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                 </svg>
               </div>
-
               <div
-                //Si isDropdownVisible es true, entonces se usa la cadena "visible".
-                //Si isDropdownVisible es false, entonces se usa la cadena "invisible".
                 className={`items-center absolute border border-t-0 rounded-b-lg p-1 bg-white ${
                   isDropdownVisible ? "visible" : "invisible"
                 }`}
@@ -176,7 +172,6 @@ function Navbar() {
                       </div>
                     ))}
                   </div>
-                  {/* <div class="font-medium truncate">{correo}</div> */}
                 </div>
                 <hr className="border-t mx-2 border-grey-light" />
                 <a

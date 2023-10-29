@@ -9,8 +9,13 @@ function QuienesSomos() {
                     ¿Quienes Somos?
                 </p>
                 <p className="text-[#ffffff] text-lg text-center md:text-left ">
-                    Somos una fundación creada por mujeres, para ayudar a subsanar las
-                    necesidades tecnológicas de todos.
+                Somos una fundación que nace de la visión y la dedicación de mujeres comprometidas con la 
+                causa de ayudar a subsanar las necesidades tecnológicas de todos. 
+                Nuestro enfoque es impulsar la inclusión digital y la igualdad de
+                 oportunidades, reconociendo que la tecnología desempeña un papel 
+                 fundamental en la sociedad actual. Estamos inspiradas por la idea de 
+                 que, al abordar las brechas tecnológicas, podemos empoderar a individuos 
+                 y comunidades, permitiéndoles aprovechar al máximo el potencial de la era digital.
                 </p>
             </div>
         </>
