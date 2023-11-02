@@ -2,6 +2,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
+  Link
 } from "react-router-dom";
 import { Root } from "../Componentes/Root/Root";
 import Home from "../Componentes/Pages/Home/Home";
@@ -16,6 +17,7 @@ import RecuperarContraseña from "../Componentes/Login/IniciarSesion/OlvideContr
 import NuevaContraseña from "../Componentes/Login/IniciarSesion/OlvideContraseña/NuevaContraseña";
 import EditCursos from "../Componentes/Pages/EditCursos/index";
 import Curso from "../Componentes/Pages/Curso/Curso";
+import CursosAdmin from "../Componentes/Pages/CursosAdmin/CursosAdmin";
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -23,8 +25,9 @@ export const router = createBrowserRouter(
         <Route element={<Home />} index />
         <Route element={<PrivateRouter />}>
           <Route element={<Cursos />} path="/cursos" />
+          <Route element={<CursosAdmin/>}path="/CursosAdmin"/>
           <Route element={<Intructores />} path="/instructores" />
-          <Route element={<Curso />} path="/Curso"/>
+          <Route element={<Curso />} path="/Curso/:titulo"/>
         </Route>
         <Route element={<Contacto />} path="/contactos" />
         <Route element={<EditCursos />} path="/EditCursos" />

@@ -33,7 +33,7 @@ function index() {
     toast.success("Exitoso");
     // Redirige a la página deseada después del tiempo de espera
     setTimeout(() => {
-      navigate("/Cursos");
+      navigate("/CursosAdmin");
     }, 1250); // Redirige a /login después de 3 segundos
   };
 

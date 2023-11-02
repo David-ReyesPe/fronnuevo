@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export function Cursos() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -41,7 +42,6 @@ export function Cursos() {
               setImageVisible(true);
             }}
           >
-            
             <iframe
               class="w-full h-64 aspect-video"
               width="560"
@@ -54,7 +54,7 @@ export function Cursos() {
 
             <div class="px-6 py-4 h-24">
               <div class="font-bold text-lg mb-2 text-center">
-                <a href="/Curso" >{filtro.titulo}</a>
+                <Link to={`/curso/${filtro.titulo}`}>{filtro.titulo}</Link>
               </div>
             </div>
           </div>
