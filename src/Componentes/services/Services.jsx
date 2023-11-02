@@ -1,5 +1,17 @@
 import { useMutation, useQueryClient } from "react-query";
 import axios from "axios";
+//useContactoMutation
+export const useContactoMutation = () => {
+  return useMutation(
+    async (data) => {
+      const response = await axios.post(
+        "http://localhost:8080/api/auth//enviarMensaje",
+        data
+      );
+      return response.data;
+    }
+  );    
+}
 
 export const useLoginMutation = () => {
   return useMutation(async (data) => {
@@ -15,7 +27,7 @@ export const useLoginMutation = () => {
     }
   });
 };
-
+//
 export const useRegisterMutation = () => {
   const queryClient = useQueryClient();
   return useMutation(

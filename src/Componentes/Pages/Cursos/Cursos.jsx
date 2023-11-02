@@ -4,7 +4,7 @@ import personamorada from "../../images/imagen-cursos/imagencursos.png";
 import Card from "./Card/Card";
 import Buscador from "./Buscador/Buscador";
 import Destacado from "./Destacado/Destacado";
-import Basicos from "./Categoria/Basicos/Basicos"
+import Basicos from "./Categoria/Basicos/Basicos";
 import Intermedio from "./Categoria/Intermedio/Intermedio";
 import Avanzado from "./Categoria/Avanzados/Avanzados";
 function Cursos() {

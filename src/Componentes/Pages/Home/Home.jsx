@@ -11,6 +11,7 @@ import Carousel from "../../Carousel/Carousel";
 function Home() {
   return (
     <div className="di">
+      {/* error error */}
       <Carousel />
       <Capacitaciones />
       <QuienesSomos />

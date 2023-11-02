@@ -3,11 +3,17 @@ import contactenoimagen from "../../images/Contacto-imagen/contacteno.png";
 import imagencontacto from "../../images/Contacto-imagen/contactocell.png";
 
 function Contacto() {
+ 
+  const openModal = () => {
+    window.location = "mailto:gerencia@fundasoftmiss.com";
+  };
+
   return (
     <div className="contacto">
       <div
         className="lg:pt-14 lg:pb-10 lg:justify-center items-center text-center bg-cover bg-center p-4 sm:p-5 lg:p-5"
-        style={{ backgroundImage: `url(${contactenoimagen})` }}>
+        style={{ backgroundImage: `url(${contactenoimagen})` }}
+      >
         <div className="text-white font-bold text-3xl sm:text-4xl lg:text-5xl text-center sm:py-10 lg:py-8 relative z-10">
           Contactenos
         </div>
@@ -26,9 +32,14 @@ function Contacto() {
                 Para nosotros es importante conocerte y resolver cualquier duda
                 que tengas, escríbenos.
               </p>
-              <button className="bg-[#9A1B76] hover:bg-[#7C145B] text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out mt-4">
-                Enviar Mensaje
-              </button>
+              <div className="div">
+                <button
+                  onClick={openModal}
+                  className="bg-[#9A1B76] hover:bg-[#7C145B] text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out mt-4"
+                >
+                  Enviar Mensaje
+                </button>
+              </div>
             </div>
           </div>
           <img
