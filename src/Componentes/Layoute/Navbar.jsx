@@ -163,6 +163,10 @@ function Navbar() {
                 className={`items-center absolute border border-t-0 rounded-b-lg p-1 bg-white ${
                   isDropdownVisible ? "visible" : "invisible"
                 }`}
+                //para que siempre se vea por encima al darle click
+                style={{
+                  zIndex: 2,
+                }}
               >
                 <div className="px-4 py-3 text-sm text-gray-900 dark:text-white">
                   <div>

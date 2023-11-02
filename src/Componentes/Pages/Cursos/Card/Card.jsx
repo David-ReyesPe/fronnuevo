@@ -14,7 +14,7 @@ function Card() {
             src={imagencapa2}
           />
           <div className="font-bold mt-2">
-            Desarrollo de software empresarial.
+            Desarrollo de paginas web.
           </div>
         </div>
         <div className="bg-blue-400 bg-opacity-80 rounded-lg shadow-lg p-4 flex flex-col justify-center items-center text-center text-white">
@@ -34,7 +34,7 @@ function Card() {
             src={imagencapa5}
           />
           <div className="font-bold mt-2">
-            Desarrollo de software empresarial.
+            Desarrollo de aplicaciones moviles.
           </div>
         </div>
         <div className="bg-purple-600 bg-opacity-80 rounded-lg shadow-lg p-4 flex flex-col justify-center items-center text-center text-white">
