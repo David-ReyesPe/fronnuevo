@@ -57,7 +57,7 @@ function Footer() {
                 </p>
                 <p className=" mb-1 md:mb-1.5 email-fundasoftmiss">
                   <span className=" text-white text-base md:text-lg font-bold">
-                    Email: 
+                    Email: {" "}
                   </span>
                   <span className="text-white text-base md:text-lg">
                     gerencia@fundasoftmiss.com
@@ -119,7 +119,7 @@ function Footer() {
           </span>
         </div>
         <div className="md:flex leading-normal gap-4 md:gap-10 underline text-lg mt-2 md:mt-0 ">
-          <span>Políticas de Cookies</span>
+          <a href="https://www.fundacionuraku.org/terminos-condiciones">Políticas de Cookies</a>
           <span>Términos y condiciones</span>
         </div>
       </div>

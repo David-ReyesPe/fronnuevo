@@ -5,12 +5,16 @@ import imagenhome from "../images/imagen-page-inicio/image1.png";
 import personamorada from "../images/imagen-page-inicio/personamorada.png";
 import personamorada1 from "../images/imagen2caru.jpg";
 import personamorada2 from "../images/imagen2caru2.png";
+import personamorada3 from "../images/personamorada4.jpg";
+import personamorada4 from "../images/personamorada3.jpg";
 
 function Carrusel() {
   const images = [
     { url: personamorada, caption: "Imagen 1" },
     { url: personamorada1, caption: "Imagen 2" },
     { url: personamorada2, caption: "Imagen 3" },
+    { url: personamorada3, caption: "Imagen 4" },
+    { url: personamorada4, caption: "imagen 5" },
   ];
 
   return (

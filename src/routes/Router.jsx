@@ -15,6 +15,8 @@ import Perfil from "../Componentes/Pages/Perfil/index";
 import RecuperarContraseña from "../Componentes/Login/IniciarSesion/OlvideContraseña/RecuperarContraseña";
 import NuevaContraseña from "../Componentes/Login/IniciarSesion/OlvideContraseña/NuevaContraseña";
 import EditCursos from "../Componentes/Pages/EditCursos/index";
+import EditInstructores from "../Componentes/Pages/EditInstructores/Index";
+import ViewInstructores from "../Componentes/Pages/viewInstructores/Index";
 import Curso from "../Componentes/Pages/Curso/Curso";
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,7 +26,7 @@ export const router = createBrowserRouter(
         <Route element={<PrivateRouter />}>
           <Route element={<Cursos />} path="/cursos" />
           <Route element={<Intructores />} path="/instructores" />
-          <Route element={<Curso />} path="/Curso"/>
+          <Route element={<Curso />} path="/Curso" />
         </Route>
         <Route element={<Contacto />} path="/contactos" />
         <Route element={<EditCursos />} path="/EditCursos" />
@@ -33,6 +35,8 @@ export const router = createBrowserRouter(
         <Route element={<NuevaContraseña />} path="/reset-password" />
         <Route element={<IniciarSesion />} path="/login" />
         <Route element={<Registrarme />} path="/registrarme" />
+        <Route element={<EditInstructores />} path="/EditInstructores" />
+        <Route element={<ViewInstructores />} path="/viewInstructores" />
       </Route>
     </>
   )

@@ -3,7 +3,6 @@ import contactenoimagen from "../../images/Contacto-imagen/contacteno.png";
 import imagencontacto from "../../images/Contacto-imagen/contactocell.png";
 
 function Contacto() {
- 
   const openModal = () => {
     window.location = "mailto:gerencia@fundasoftmiss.com";
   };
@@ -22,15 +21,13 @@ function Contacto() {
         <div className="bg-[#faf9fb] p-4 sm:p-5 lg:p-5 flex flex-col sm:flex-row items-center justify-between">
           <div className="text-center sm:text-left flex items-center sm:w-full lg:w-2/5 p-10">
             <div>
-              <p className="text-3xl text-black font-normal mb-8">
-                Póngase en contacto
-              </p>
               <div className="text-3xl text-black font-bold mb-8">
                 Escribanos ahora un mensaje
               </div>
               <p className="text-black font-normal text-base lg:text-lg w-[250px] mb-5 text-left">
-                Para nosotros es importante conocerte y resolver cualquier duda
-                que tengas, escríbenos.
+                Ponte en contacto con nosotros. Envíanos un mensaje ahora. Es
+                fundamental para nosotros conocerte y resolver cualquier duda
+                que puedas tener. ¡Escríbenos!
               </p>
               <div className="div">
                 <button

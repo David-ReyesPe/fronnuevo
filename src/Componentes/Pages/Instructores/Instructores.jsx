@@ -1,5 +1,4 @@
 import React from 'react'
-import Datos from './CardReutilizable/Datos';
 import Card from './CardReutilizable/Card';
 import personatres from '../../images/Instructores-imagen/Instructores.png'
 
@@ -14,16 +13,8 @@ function Instructores() {
           Descubre el poder de la enseñanza transformadora con nuestros talentosos instructores. Con su experiencia y pasión, te guiarán hacia el éxito, desbloqueando tu máximo potencial y llevándote más allá de tus límites. ¡Prepárate para un viaje de aprendizaje inspirador y resultados sorprendentes!
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 ">
-        {Datos.map((dato) => (
-          <Card
-            key={dato.id}
-            imagen={dato.imagen}
-            nombre={dato.nombre}
-            ingeniero={dato.ingeniero}
-            descripcion={dato.descripcion}
-          />
-        ))}
+      <div className="grid grid-cols-1 ">
+        <Card/>
       </div>
     </div>
   )

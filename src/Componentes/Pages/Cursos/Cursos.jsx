@@ -27,8 +27,16 @@ function Cursos() {
         </p>
         <Card />
       </div>
+      {/* la barra del buscador no esta funcionando y si buscan nombre en 
+      especifico se tiene que mostrar los videos que contengan ese nombre
+      para eso sera el buscador, sin quemar nombre solo de esas manera
+      y podra buscarlo en tdoas las categorias que esten disponibles */}
       <Buscador />
-      <Destacado />
+      {/*  corregir que se vea el video mas visto, entre
+      todos los curso para que la gente tambien
+      lo pueda comprar y asu ves poder tener nuevas personas junto a la fundacion
+      para que seamos los mejores anivel del huila*/}
+      <Destacado /> 
       <Basicos />
       <Intermedio />
       <Avanzado />

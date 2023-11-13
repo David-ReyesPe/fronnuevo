@@ -163,7 +163,6 @@ function Navbar() {
                 className={`items-center absolute border border-t-0 rounded-b-lg p-1 bg-white ${
                   isDropdownVisible ? "visible" : "invisible"
                 }`}
-                //para que siempre se vea por encima al darle click
                 style={{
                   zIndex: 2,
                 }}
@@ -192,7 +191,23 @@ function Navbar() {
                 >
                   Crear Cursos
                 </a>
+                <a
+                  href="/EditInstructores"
+                  className="px-4 py-2 block text-black hover:bg-grey-lighter"
+                  style={{ display: rol[0] === "ADMIN" ? "block" : "none" }}
+                >
+                  Nuevo Instrcutor
+                </a>
 
+                <hr className="border-t mx-2 border-grey-light py-1" />
+
+                <a
+                  href="/viewInstructores"
+                  className="px-4 py-2 block text-black hover:bg-grey-lighter"
+                  style={{ display: rol[0] === "ADMIN" ? "block" : "none" }}
+                >
+                  Ver Instrcutores
+                </a>
                 <hr className="border-t mx-2 border-grey-light py-1" />
                 <button
                   //Esta es una prop onClick del botón que especifica la función que se debe llamar
